@@ -1,0 +1,12 @@
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.care.root.CalMapper">
+	<insert id="insert">
+		insert into calendar(calendr_no, id, title, start_date, end_date) values(calendr_no_SEQ.nextval,#{id},#{title},#{start},#{end})
+	</insert>
+
+
+
+</mapper>
