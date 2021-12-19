@@ -90,11 +90,11 @@
 	 //instance 의 정보에서 start와 end정보를 알아야합니다.
 	 console.log(allEvent);
 	 
-	 let form = {};
+	
 	 var events = new Array();
 	
 	 for(var i=0; i<allEvent.length; i++) 
-	 {
+	 { //이 반복문은 필요없음 삭제해도 무방합니다. 
 		 
 		 var obj = new Object();
 		 
